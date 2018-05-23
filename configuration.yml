@@ -1,0 +1,3 @@
+dateFormat: yyyy-MM-dd
+jolokiaURL: http://localhost:4444/jolokia
+dlqMbeanName: org.apache.activemq.artemis:type=Broker,brokerName="default",module=JMS,serviceType=Queue,name="DLQ"

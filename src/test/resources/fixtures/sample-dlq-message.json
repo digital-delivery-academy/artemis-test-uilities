@@ -1,0 +1,34 @@
+{
+  "JMSType": "Message",
+  "JMSMessageID": "ID:d62ee71f-fd23-11e7-a1c2-4785fdf3d734",
+  "JMSExpiration": 0,
+  "OriginalDestination": "jms.topic.public.event",
+  "JMSRedelivered": false,
+  "ShortProperties": {},
+  "JMSTimestamp": "2018-01-19T14:20:01Z",
+  "JMSXUserID": "",
+  "JMSXGroupSeq": 0,
+  "Text": "{\"_metadata\":{\"name\":\"public.context.command\",\"context\":{\"user\":\"83943024-0d68-447f-b3d1-c34a17bf05aa\"},\"id\":\"2027a319-da37-4c37-8823-ae11c616c51b\"},\"itemId\":\"ffda530a-f6b9-4269-b71f-78d0ef891133\"}",
+  "JMSDeliveryMode": "PERSISTENT",
+  "ByteProperties": {},
+  "LongProperties": {
+    "_AMQ_ORIG_MESSAGE_ID": 20048211
+  },
+  "IntProperties": {},
+  "JMSPriority": 4,
+  "JMSReplyTo": "",
+  "JMSXGroupID": "",
+  "JMSDestination": "jms.queue.DLQ",
+  "StringProperties": {
+    "singularityheader": "notxdetect=true",
+    "__AMQ_CID": "bf4433cc-fd23-11e7-a1c2-4785fdf3d734",
+    "_AMQ_ORIG_QUEUE": "context\\.event\\.processor\\.public\\.event",
+    "CPPNAME": "public.context.command",
+    "_AMQ_ORIG_ADDRESS": "jms.topic.public.event"
+  },
+  "DoubleProperties": {},
+  "JMSCorrelationID": "",
+  "PropertiesText": "{singularityheader=notxdetect=true, __AMQ_CID=bf4433cc-fd23-11e7-a1c2-4785fdf3d734, _AMQ_ORIG_QUEUE=staging\\.event\\.processor\\.public\\.event, CPPNAME=public.context.command, _AMQ_ORIG_ADDRESS=jms.topic.public.event, _AMQ_ORIG_MESSAGE_ID=20048211}",
+  "BooleanProperties": {},
+  "FloatProperties": {}
+}
